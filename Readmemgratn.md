@@ -177,4 +177,9 @@ Mettez à jour les dépendances et ajustez les imports pour être compatible ave
 
 ---
 
-Ce guide couvre les principaux changements et solutions nécessaires pour migrer vers Spring 6.0.5 et Jakarta EE. Assurez-vous de bien ajuster vos configurations et dépendances pour garantir une compatibilité totale.
+### Could not resolve symbole ClientHttpRequestFactorySuppier
+
+Vérifier les Dépendances : Assurez-vous d'avoir les bonnes dépendances pour ClientHttpRequestFactorySupplier.
+Dans Spring, ClientHttpRequestFactory et les composants associés se trouvent souvent dans les bibliothèques spring-web ou spring-webmvc. 
+Vérifiez que ces dépendances sont bien incluses dans votre pom.xml (pour Maven) ou build.gradle (pour Gradle).
+
